@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "examples",
+  "info": {
+    "name": "Examples"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "isVisible": {
+      "type": "boolean"
+    },
+    "Budget": {
+      "type": "decimal"
+    }
+  }
+}

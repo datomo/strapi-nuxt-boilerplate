@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/examples",
+      "handler": "examples.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/examples",
+      "handler": "examples.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/examples",
+      "handler": "examples.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
